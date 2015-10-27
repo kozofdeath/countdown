@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>COUNT DOWN</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<style>
+	body {
+		width:100%;
+		text-align: center;
+	}
+
+	#content {
+		width: 40%;
+		margin: 0 auto;
+		height: 700px;
+		font-size: 24px;
+	}
+
+	#timer {
+		text-align:left;
+	}
+
+	#countdown > span {
+		color: red;
+		font-size: 30px;
+		font-weight: bolder;
+	}
+	</style>
+</head>
+<body>
+	<h1>Countdown Until Event</h1>
+	<div id="content">
+		Enter a date below <br><input id="inp" type="text"><br>
+		(enter it in this example format: Jan 1 2015 8:00)
+		<div id="timer">
+			<br><br><br>
+			<p id="start">Start: <span></span></p>
+			<p id="end">End: <span></span></p>
+			<p id="countdown">Countdown: <span></span></p>
+		</div>
+	</div>
+</body>
+</html>
